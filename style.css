@@ -70,7 +70,7 @@ h1 {
 
 .science .text {
   color: #eae9e4;
-  line-height: 2;
+  line-height: 1.5;
 }
 
 .h5 {
@@ -93,7 +93,7 @@ h1 {
 }
 
 .nature .text {
-  line-height: 2;
+  line-height: 1.5;
 }
 
 .video {
@@ -116,10 +116,13 @@ h1 {
 }
 
 @media (max-width: 1400px) {
+  .items {
+    width: 32%;
+  }
   .nature,
   .science,
   .video {
-    height: 100vh;
+    height: 80vh;
   }
 }
 
@@ -135,12 +138,13 @@ h1 {
     width: 90%;
     /* 
     height: 600px; */
-    margin: 40px;
+    margin: 50px;
   }
   .nature,
   .science,
   .video {
-    height: 550px;
+    height: 100%;
+    width: 85%;
   }
 }
 /*# sourceMappingURL=style.css.map */
